@@ -1,0 +1,185 @@
+@charset "utf-8";
+@import 'main';
+
+
+.top{
+    background:#ff9b25;
+    height:89/@bs;
+    padding:0 24/@bs;
+    line-height: 89/@bs;
+    .activity{
+        color:#fff;
+        font-size: 32/@bs;
+        .act{
+            font-size: 36/@bs;
+            margin-right: 16/@bs;
+        }
+    }
+}
+
+.main{padding:0 24/@bs;}
+.module{
+    .tit{
+        margin:28/@bs 0;
+        display:flex;
+        display:-moz-flex;
+        display:-webkit-flex;
+        justify-content:space-between;
+        .tit_left{
+            font-size: 28/@bs;
+            color:#000;
+        }
+        i{font-style: normal;}
+    }
+    .box{
+        width: 100%;
+        height: 224/@bs;
+        border:3/@bs dashed #dedede;
+        background:@color;
+        text-align: center;
+        .add{
+            width: 132/@bs;
+            height:150/@bs;
+            display: block;
+            margin: 36/@bs auto 0;
+            font-size: 102/@bs;
+            color:#aeaeae;
+            span{
+                display:block;
+                margin-top: 16/@bs;
+                font-size: 26/@bs;
+            }
+        }
+    }
+    .con{
+        overflow: hidden;
+        width:100%;
+        border-radius: 10/@bs;
+        margin-bottom: 30/@bs;
+        box-shadow: 0px 0px 3/@bs 3/@bs #ebe9e6;
+
+        .con_top{
+            height:234/@bs;
+            background: #55bc75;
+            background-size: 146/@bs 146/@bs;
+            padding: 0 32/@bs;
+            overflow: hidden;
+            position: relative;
+            .sale{
+                background:url(../images/sale.png) no-repeat;
+                width: 146/@bs;
+                height:146/@bs;
+                background-size: cover;
+                position: absolute;
+                right: -7/@bs;
+                top:-16/@bs;
+            }
+            h3{
+                font-size: 42/@bs;
+                color:#fff;
+                font-weight: normal;
+                margin:36/@bs 0 12/@bs 0;
+
+                span{
+                    font-size: 24/@bs;
+                    color:#e9c6f6;
+                }
+            }
+            .txt{
+                font-size: 24/@bs;
+                color:#bdf3ce;
+            }
+            .time{
+                font-size: 22/@bs;
+                margin-top: 36/@bs;
+                color:#fff;
+                line-height:33/@bs;
+                .time_l{
+                    float:left;
+                    margin-left: 6/@bs;
+                    height: 33/@bs;
+                    line-height:33/@bs;
+                }
+                .time_r{
+                    float:right;
+                    width: 96/@bs;
+                    height: 33/@bs;
+                    line-height:33/@bs;
+                    text-align: center;
+                    font-size: 22/@bs;
+                    color:#bdf3ce;
+                    background:#2a603b;
+                    border-radius: 3/@bs;
+                }
+            }
+        }
+        .con_gray{
+            background:#a974bc;
+            h3{
+                margin: 12/@bs 0 4/@bs 0;
+                font-size: 90/@bs;
+                i{
+                font-style: normal;
+                font-size: 40/@bs;
+            }
+            }
+            .txt{
+                color:#fff;
+            }
+            .time{
+                margin-top: 10/@bs;
+                .time_r{
+                    color:#f2d8fb;
+                    background:#6a4279;
+                }
+            }
+        }
+        .con_bt{
+            height:80/@bs;
+            background:#fff;
+            display:-webkit-flex;
+            display:-moz-flex;
+            padding:16/@bs 0;
+            position: relative;
+           .onLine{
+                position: absolute;
+                width: 100%;
+                height:8/@bs;
+                top:-6/@bs;
+                left:0;
+                background: url(../images/icon.png) repeat-x;
+            }
+            a{
+                flex:1;
+                text-align: center;
+                line-height: 44/@bs;
+                color:#60c07e;
+                font-size: 28/@bs;
+                border-right: 1px solid #e8e2d9;
+                span{
+                    color:#888;
+                    font-size: 26/@bs;
+                    margin-left: 20/@bs;
+                }
+                &:last-child{border-right: none;}
+            }
+        }
+        .bt_yhq{
+            a{
+              color:#a974bc;  
+            }
+        }
+    }
+}
+
+/*提示*/
+.tips{
+    margin-top: 104/@bs;
+    padding-bottom: 48/@bs;
+    span,p{
+        font-size: 24/@bs;
+        margin-top: 18/@bs;
+        color:#999;
+    }
+}
+
